@@ -1,0 +1,419 @@
+*{
+    margin: 0;
+}
+.mainContainer{
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    grid-gap: 5px;
+    box-sizing: border-box;
+}
+.header{
+    width: 80vw;
+    min-height: 150px;
+    border: 1px solid purple;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 16px;
+    color: white;
+    font-family: 'Fredoka One', cursive;
+
+    background-image: url('/mediaNimages/scrunchiesDesigns2.jpg');
+    background-position: bottom;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.container{
+    width: 80vw;
+    border: 1px solid black;
+    background-color: #80808073;
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    position:relative;
+}
+#searchDiv{
+    background-color: burlywood;
+    width: 100%;
+}
+#searchTxt{
+    font-size: 1rem;
+    outline: none;
+    border-radius: 5px;
+    padding: 0px 40px 0px 10px;
+    border: 0px;
+    height: 37px;
+    width: 45%;
+    background-color: #faebd7;
+}
+#searchCancelBtn{
+    position: relative;
+    right: 13%;
+    font-size: 25px;
+    cursor: pointer;
+    padding: 1px 7px;
+}
+#fomrData{
+    display: flex;
+    grid-gap: 3px;
+    align-items: center;
+    width: 460px;
+    margin-left: 5%;
+}
+#item{
+    font-size: 1rem;    
+    text-indent: 5px;
+    height: 37px;
+    width: 165px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px ridge #0006;
+    background-color: #faebd7;
+}
+
+#form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    flex-flow: row wrap;
+}
+#srchBtn{
+    display: flex;
+    align-items: center;
+    width: 250px;
+    margin-left: 5%;
+    height: 45px;
+}
+h1{
+    transform: scale(1.5);
+}
+h3{
+    transform: scale(1.1);
+}
+h1, h3{
+    margin: 0px;
+}
+#total{
+    width: 69vw;
+    height: 38px;
+    display: flex;
+    background-color: blanchedalmond;
+    justify-content: flex-end;
+    align-items: center;
+    border: 1px solid aliceblue;
+}
+#tableFooter{
+    display: flex;
+    width: 100%;
+}
+#totalAmount{
+    background-color: blanchedalmond;
+    display: flex;
+    align-items: center;
+    width: 44%;
+}
+#tableDiv{
+    height: 50vh;
+    width: 90%;
+    border: 1px solid aliceblue;
+    overflow-x: hidden;
+    background-color: #ffe4c496;
+}
+#tableT{
+    width: 100%;
+    min-height: 230px;
+    height: 14%;
+    text-align: center;
+    border-collapse: collapse;
+}
+tr{
+    display: grid;
+    grid-template-columns: 10.15% 45.2% 30.01% 15%;
+    height: 30px;
+}
+#tr{
+    border: 1px solid aliceblue;
+    background: antiquewhite;
+    max-height: 13%;
+    min-height: 13%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+#th1{
+    width: 10%;
+    border-right: 1px solid darkkhaki;
+}
+#th2{
+    width: 45%;
+    border-right: 1px solid darkgray;
+}
+#th3{
+    width: 30%;
+}
+#th4{
+    border-left: 1px solid darkgray;
+    width: 14%;
+}
+.hdTagStyle{
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+td{
+    text-align: center;
+    background-color: bisque;
+    border-right: 1px solid darkgray;
+    border-bottom: 1px solid darkgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.td1{
+    border-right: 1px solid darkgray;
+}
+.td2{
+    padding-left: 100px;
+    text-align: left;
+    height: 31px;
+    font-size: 17px;
+}
+.td3{
+    text-align: left;
+    margin-left: 118px;
+    padding-left: 15px;
+    display: flex;
+    justify-content:space-between;
+    grid-gap: 66px;
+    align-items: center;
+    height: 31px;
+}
+tr td{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 5px 0px 50px;
+}
+td button{
+    cursor: pointer;
+    border-radius: 5px;
+}
+.noItems{
+    display:flex;
+    justify-content:center;
+    margin-top:3px;
+}
+.noItems td{
+    width: 100%;
+    border-radius: 5px;
+    height: 25px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1rem;
+}
+.paddingINpAmount{
+    padding-left: 0px;
+}
+.textIndent{
+    text-indent: 25px;
+}
+#addExpINp{
+    outline: none;
+    width: 75%;
+    text-indent: 25px;
+    border-radius: 5px;
+    height: 29px;
+    background: #faebd7;
+    border: 1px ridge #0006;
+}
+.btnSpan{
+    display: flex;
+    justify-content: left;
+    height: 30px;
+    width: 60%;
+    align-items: center;
+    grid-gap: 3px;
+}
+#cost{
+    font-size: 1rem;
+    outline: none;
+    text-indent: 5px;
+    border-radius: 5px;
+    background: #faebd7;
+    border: 1px ridge #0006;
+    height: 37px;
+    width: 127px;
+}
+.height{
+    cursor: pointer;
+    height: 39px;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #f7f7f7cf;
+}
+abbr[title]{
+    text-decoration: none !important;
+}
+.title{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 45px 0px 45px;
+}
+.costPadding{
+    padding-left: 130px;
+}
+.tTotal{ 
+     margin-right: 70px;
+}
+tbody{
+    margin-top: 1px;
+}
+#navbar-r{
+    position: absolute;
+    right: 0px;
+    background-color: #f7f7f7cf;
+    height: 39px;
+    width: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+#navbar-r > p{
+    transform: rotate(90deg);
+    font-weight: 900;
+    font-size: 30px;
+    position: relative;
+    top: 2px;
+    left: 3px;
+}
+#more{
+    cursor: default;
+}
+#fa{
+    background-color: #f7f7f7cf;
+}
+#navbar-rOnclick{
+    visibility: hidden;
+    position: absolute;
+    right: 0px;
+    top: 42px;
+    background-color: #7c684e;
+    color: #fff;
+    height: 322px;
+    width: 192px;
+    z-index: 2;
+    border-top-left-radius: 13px;
+    border-bottom-left-radius: 13px;
+}
+#navbarHead{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+#selectDate{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    height: 90%;
+    padding: 0px;
+    flex-flow: column;
+    align-items: center;
+    grid-gap: 2px;
+}
+#select{
+    width: 90%;
+    min-height: 27px;
+    display: flex;
+    flex-flow: column;
+    grid-gap: 0px;
+    padding-top: 10px;
+}
+#yearSelection > option{
+    width: 30px;    
+}
+#monthSelection > option{
+    width: 30px;
+}
+#moreDiv{
+    width: 120%;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid bisque;
+    position: relative;
+    right: 16px;
+    align-items: center;
+    background-color: #7c684e;
+}
+#more{
+    padding-left: 5px;
+}
+#moreArrow{
+    cursor: pointer;
+    padding-right: 5px;
+}
+#moreData{
+    visibility: hidden;
+    display: flex;
+    flex-flow: column;
+    grid-gap: 15px;
+    position: relative;
+    top: 0px;
+}
+.moreAmount{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 0.95rem;
+    width: 100%;
+    height: 22px;
+    align-items: center;
+    border-left: 1px solid beige;
+    border-right: 1px solid beige;
+    background-color: #0000003d;
+    position: relative;
+    top: 3px;
+}
+#refreshBtn{
+    text-indent: 15px;
+}
+#moreContainer{
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    height: 65%;
+    align-items: baseline;
+    position: relative;
+    top: 25px;
+    background-color: #7c684e;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+#footer{
+    width: 100%;
+    height: 40px;
+    background-image: url('/mediaNimages/scrunchiesDesigns2.jpg');
+    background-position: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    color: antiquewhite;
+    background-color: #0d0d2d;
+    position: absolute;
+    bottom: 0px;
+}

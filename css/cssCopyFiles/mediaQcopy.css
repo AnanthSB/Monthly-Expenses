@@ -1,0 +1,179 @@
+
+/* on below 855px width */
+@media (max-width: 855px){
+    .mainContainer{
+        display: flex;
+        flex-flow: column;
+        box-sizing: border-box;
+        align-items: center;
+        grid-gap: 5px;
+        height: 100%;
+        width: 100%;
+    }
+    .header{
+        min-height: 80px;
+        max-height: 80px;
+        width: 99vw;
+        background-size: auto;
+        display: flex;
+        flex-flow: column;
+        justify-content: flex-end;
+        align-items: center;
+        grid-gap: 16px;
+        color: white;
+    }
+    .container{
+        width: 100vw;
+        min-height: 390px;
+        border: 1px solid black;
+        background-color: grey;
+        display: flex;
+        flex-flow: column;
+    }
+    #searchDiv{
+        background-color: burlywood;
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        width: 100%;
+    }
+    .title{
+        padding: 0px 20% 0px 14%;
+    }
+    #th1{
+     width: 7%;
+    }
+    #th2{
+        width: 60.3%;
+    }
+    #th3{
+        width: 13.5%;
+    }
+    #th4{
+        border-right: 1px solid darkgray;
+        width: 19%;
+    }
+    #tableDiv{
+        width: 100%;
+        height: 86%;
+        background-color: bisque;
+    }
+    tr td{
+        display: flex;
+        justify-content: center;
+        padding: 0px 0px 0px 0px;
+    }
+    .td1{
+        width: 97%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    tr{
+        grid-template-columns: 7.15% 60.3% 14.1% 17%;
+    }
+    .itemName span{
+        width: 100%;
+        height: 20px;
+        overflow-x: auto;
+        padding-right: 14%;
+    }
+    .costPadding{
+        padding-left: 0px;
+        width: 96%;
+        display: flex;
+        justify-content: center;
+    }
+    td{
+        align-items: center;
+    }
+    #tr{
+        height: 10%;
+        width: 100%;
+    }
+    .tr{
+        height: 2.4rem;
+        width: 100%;
+    }
+    #navbar-rOnclick{
+        visibility: hidden;
+        position: absolute;
+        right: 0px;
+        top: 13%;
+        background-color: #5a462c;
+        color: #fff;
+        height: 322px;
+        width: 192px;
+        z-index: 2;
+        border-top-left-radius: 13px;
+        border-bottom-left-radius: 13px;
+    }
+    .noItems td{
+        min-height:54px;
+        padding: 0px 25px;
+    }
+    #tableFooter{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        background-color: beige;
+    }
+    #total{
+        width: 30%;
+        height: 30px;
+        display: flex;
+        background-color: beige;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid aliceblue;
+        margin-left: 29%;
+    }
+    #totalAmount{
+        width: 23%;
+        background: beige;
+        text-indent: 8px;
+    }
+    h1{
+        font-size: 5vw;
+    }
+    h3{
+        font-size: 0.9rem;
+    }
+    h1, h3{
+        margin: 0px;
+        padding: 0px;
+    }
+    #footer{
+        position: relative;
+        top: 1px;
+    }
+}
+
+/* on below 500px width */
+@media (max-width: 500px){
+    #srchBtn{
+        margin-left: 1%;
+    }
+    #fomrData{
+        margin-left: 1%;
+    }
+    #item{
+        width: 119px;
+    }
+    #cost{
+        width: 65px;
+    }
+    #navbar-rOnclick {
+        bottom: 25%;
+    }
+    #moreContainer{
+        background-color: #7c684e03;
+    }
+    #moreDiv{
+        background-color: #7c684e03;
+    }
+    #footer{
+        position: relative;
+        top: 1px;
+    }
+}
