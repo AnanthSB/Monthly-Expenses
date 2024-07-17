@@ -17,7 +17,7 @@ Currenlty this front end project is based on Web API's localStorage created, if 
 as per their choice of hosting, server.
 
 
-![alt text](https://github.com/AnanthSB/Monthly-Expenses/blob/master/mediaNimages/MonthlyExpenses.jpg)
+![alt text](https://github.com/AnanthSB/Monthly-Expenses/blob/master/mediaNimages/MonthlyExpenses.jpg?raw=true)
 
 
 
