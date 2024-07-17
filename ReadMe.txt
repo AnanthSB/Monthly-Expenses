@@ -2,7 +2,7 @@
 
 
 This project is created by pure HTML, CSS and Javascript.
-This is a responsive website built by me(Ananth Shetty) from 09-SEP-2021 to 30-SEP-2021. Which works well in mobile,
+This is a responsive website built by me from 09-SEP-2021 to 30-SEP-2021. Which works well in mobile,
 tabs, laptop or computer.
 
 This project will help the user in managing his/her expenses every day, every month and every year how
