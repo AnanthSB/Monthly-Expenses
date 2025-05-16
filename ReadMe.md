@@ -1,3 +1,4 @@
+![image](https://github.com/user-attachments/assets/94c59ffe-e72c-40cb-b57e-31a324b046e6)
 
 ---------------- 'Monthly Expenses' ----------------
 
